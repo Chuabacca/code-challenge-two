@@ -3,6 +3,8 @@
 
 This email project mirrors the layout and styles from this <a href="https://dribbble.com/shots/897840-December-Newsletter/attachments/97970" target="_blank">Litmus Email Newsletter</a> with different iconography. This design features modular table segments that create each colored section and a 2 to 1 column responsive layout. The latter is accomplished with dynamically stacking elements that display 2-up or 1-up depending on the available viewing area. It does not rely on CSS media queries which would not be supported in Gmail. 
 
+I had trouble pushing my Litmus screenshots to this repository, so I hosted them <a href="https://www.dropbox.com/sh/y2erihslguvq0j2/AACfKbOcHbU4RsvC5DtuyB-Ta?dl=0&s=so" target="_blank">here on Dropbox</a>.
+
 #### The following are the highlights of this hand-coded design.
 <ul>
 <li>Responsive design with dynamically stacking elements.</li>
