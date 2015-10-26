@@ -1,358 +1,405 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-compatible" content="IE=edge" />
-        <title>Litmus Email</title>
-        <style>
-        a {
-         color: #666666 !important;
-    	}
-        table {
-        margin: 0 auto !important;
-        }
-        </style>
-	</head>
-	<body style="margin: 0; padding: 0; min-width: 100%; width: 100%";>
-        
-		<!-- A HEADER AHEAD -->
-        <table align="center" bgcolor="#2f332f" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-right: 12px;" width="100%">
-            <tr>
-            	<td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;  padding-left: 12px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="165">
-                            <tr>
-                            	<td align="center">
-                            		<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" height="60" width="60">
-                            	</td>
-                                <td style="text-align: center; color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 18px;">
-                                	chuabacca
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-compatible" content="IE=edge" />
+	<title>Litmus Email</title>
+	<style>
+		a {
+			/* Who chose that ugly default blue color for links anyway??? */
+			color: #666666 !important;
+		}
+		table {
+			/* Because Yahoo doesn't believe align="center" is a valid HTML atribute for tables... */
+			margin: 0 auto !important;
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0; min-width: 100%; width: 100%;">
+
+	<!-- A HEADER AHEAD -->
+	<table align="center" bgcolor="#2f332f" border="0" cellspacing="0" cellpadding="0" width="100%">
+		<tr>
+			<td>
+				<!-- Constrains table in MSO since max-width is ignored -->
+				<!--[if mso]> 
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-right: 12px;" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;  padding-left: 12px;">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="165">
+													<tr>
+														<td align="center">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" height="60" width="60">
+														</td>
+														<td style="text-align: center; color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 18px;">
+															chuabacca
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!-- Helps dynamic sections function in MSO by adding table cell division -->
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="260">
+													<tr>
+														<td style="color: #666666; font-family: Ariel, sans-serif; font-size: 14px; height: 60px; text-align: right; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
+															DSC code challenge: HTML email
+															<br/>View my <a href="https://github.com/Chuabacca/code-challenge-two" target="_blank" style="color: #666666;">GitHub repository</a>
+															<br/>
+															<span style="display: inline-block; padding-top: 5px"><img src="https://raw.githubusercontent.com/Chuabacca/code-challenge-two/master/images/icon-twitter.gif" > Tweet this &nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge-two/master/images/icon-email.gif"> Forward this</span>
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
 				</td>
+			</tr>
+		</table>
+		<!-- END A HEADER AHEAD -->
+
+		<!-- CHEWIE SECTION -->
+		<table align="center" bgcolor="#9f5c23" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
 				<td>
-				<![endif]-->
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="260">
-                            <tr>
-                            	<td style="color: #666666; font-family: Ariel, sans-serif; font-size: 14px; height: 60px; text-align: right; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
-                            		DSC code challenge: HTML email<br/>
-                                    View my <a href="https://github.com/Chuabacca/code-challenge-two" target="_blank" style="color: #666666;">GitHub repository</a><br/>
-                                    <span style="display: inline-block; padding-top: 5px"><img src="https://raw.githubusercontent.com/Chuabacca/code-challenge-two/master/images/icon-twitter.gif" > Tweet this &nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge-two/master/images/icon-email.gif"> Forward this</span>
-                            	</td>
-                            </tr>
-                        </table>
-                    </div>
-            	</td>
-            </tr>
-        </table>
-    	<!--[if mso]>
-              </td></tr>
-    	</table>
-		<![endif]-->
-            </td></tr>
-        </table>
-        <!-- END A HEADER AHEAD -->
-        
-        <!-- AWESOME SECTION -->
-        <table align="center" bgcolor="#9f5c23" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
-            <tr>
-                 <td align="center" style="color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 25px; font-weight: bold; text-shadow: 1px 1px 0px #000000;" width="100%">
-                    			Let the Wookie win
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 19px; height: 200px; padding-left: 12px; padding-right: 12px; text-align: left;">
-                                    C-3PO and R2-D2 learn an important lesson in how to play holographic chess against Chewbacca.<br/>&nbsp;<br/>&nbsp;
-                                    <a href="http://www.starwars.com/video/let-the-wookiee-win" target="_blank">
-                                		<table align="center" border="0" cellspacing="0" cellpadding="0">
-                                    		<tr>
-                                        		<td bgcolor="#089a3a" style="border-radius: 6px; color: #222222; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:200px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
-                                            watch the video &#8594;
-                                        		</td>
-                                    		</tr>
-                                		</table>
-                                	</a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
-                </td>
-                <td>
-                <![endif]-->
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td align="center" style="padding-bottom: 4px; padding-top: 30px;">
-                                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chewie.png" style="border-radius: 7px;">
-                                </td>
-                                
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-            <!--[if mso]>
-              </td></tr>
-        </table>
-        <![endif]-->
-            </td></tr>
-        </table>
-        <!-- END AWESOME SECTION -->
-        
-        <!-- COOL SECTION -->
-        <table align="center" bgcolor="#089a3a" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
-            <tr>
-                <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td align="center">
-                                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/fett.png" style="border-radius: 7px;">
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
-                </td>
-                <td>
-                <![endif]-->
-                    <div style="display: inline-block;">
-                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td align="left" style="color: #363838; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 15px; padding-left: 12px; padding-top: 15px; text-align: left;" width="212">
-                                	No disintegrations
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; text-align: left;">
-                                    With his customized Mandalorian armor, deadly weaponry, and silent demeanor, Boba Fett was one of the most feared bounty hunters in the galaxy.<br/>&nbsp; <br/>&nbsp;
-                                    <a href="http://www.starwars.com/video/no-disintegrations" target="_blank">
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td bgcolor="#222222" style="border-radius: 5px; color: #aaaaaa; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
-                                            watch the video &#8594;
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-            <!--[if mso]>
-              </td></tr>
-        </table>
-        <![endif]-->
-            </td></tr>
-        </table>
-        <!-- END COOL SECTION -->
-        
-        <!-- SWEET SECTION -->
-        <table align="center" bgcolor="#e698o5" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
-            <tr>
-                <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td style="color: #414141; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 10px; padding-left: 12px; padding-right: 12px; text-align: left;">
-                                    Aren't you a little short for a stormtrooper?
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="color: #4a4a4a; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; text-align: left;">
-                                    <b>Mounting a rescue?</b><br/>
-                                Make sure you are dressed for the occasion.<br/>&nbsp; <br/>&nbsp;
-                                    <a href="http://www.starwars.com/video/arent-you-a-little-short" target="_blank">
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td bgcolor="#4a4a4a" style="border-radius: 5px; color: #aaaaaa; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
-                                            watch the video &#8594;
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
-                </td>
-                <td>
-                <![endif]-->
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td align="center" style="padding-top: 20px">
-                                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/trooper.png" style="border-radius: 7px;">
-                                </td>
-                                
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-            <!--[if mso]>
-              </td></tr>
-        </table>
-        <![endif]-->
-            </td></tr>
-        </table>
-        <!-- END SWEET SECTION -->
-        
-        <!-- TIGHT SECTION -->
-        <table align="center" bgcolor="#76818f" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
-            <tr>
-                <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td align="center">
-                                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/r2.png" style="border-radius: 7px;">
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
-                </td>
-                <td>
-                <![endif]-->
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="225">
-                            <tr>
-                                <td style="padding-left: 12px; padding-bottom: 7px; padding-top: 10px;">
-                                	<table align="left" border="0" cellspacing="0" cellpadding="0">
-                                        <tr>
-                                            <td bgcolor="#70605a" style="border-radius: 8px; color: #76818f; display:inline-block; font-family:sans-serif; font-size:10px; font-weight:bold;text-align:center; text-decoration: none; width:100px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 5px; padding-bottom: 5px;">
-                                            Jedi Mind Trick
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td align="left" style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 15px; padding-left: 12px;padding-right: 12px;">
-                                    These aren't the droids you are looking for. 
-                                </td>
-                            </tr>
-                            <tr>
-                                <td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; text-align: left;">
-                                    The Force can have a strong influence on the weak-minded.<br/>&nbsp; <br/>&nbsp;
-                                    <a href="https://youtu.be/DIzAaY2Jm-s" target="_blank">
-                                        <table align="left" border="0" cellspacing="0" cellpadding="0">
-                                            <tr>
-                                                <td bgcolor="#b0a09a" style="border-radius: 5px; color: #70605a; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
-                                            watch the video &#8594;
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </a>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-            <!--[if mso]>
-              </td></tr>
-        </table>
-        <![endif]-->
-            </td></tr>
-        </table>
-        <!-- END TIGHT SECTION -->
-        
-        <!-- A FOOTER AFOOT -->
-        <table align="center" bgcolor="#2f332f" border="0" cellspacing="0" cellpadding="0" width="100%">
-            <tr><td>
-        <!--[if mso]>
-        <table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
-             <tr><td>
-        <![endif]-->
-        <table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-right: 12px;" width="100%">
-            <tr>
-                <td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;  padding-left: 12px;">
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="165">
-                            <tr>
-                                <td align="center">
-                                    <img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" height="60" width="60">
-                                </td>
-                                <td style="text-align: center; color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 18px;">
-                                    chuabacca
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                <!--[if gte mso 12]>
-                </td>
-                <td>
-                <![endif]-->
-                    <div style="display: inline-block;">
-                        <table border="0" cellspacing="0" cellpadding="0" width="260">
-                            <tr>
-                                <td style="color: #666666; font-family: Ariel, sans-serif; font-size: 11px; height: 60px; text-align: center; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
-                                    <span style="color: #666666; text-decoration: none;">22100 Burbank Blvd, Woodland Hills, CA 91367</span><br/>
-                                    Unsubscribe  |  View this email in your browser
-                                    
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
-            </tr>
-        </table>
-                <!--[if mso]>
-              </td></tr>
-        </table>
-        <![endif]-->
-            </td></tr>
-        </table>
-        <!-- END A FOOTER AFOOT -->
-                    
-	</body>
+					<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
+									<tr>
+										<td align="center" style="color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 25px; font-weight: bold; text-shadow: 1px 1px 0px #000000;" width="100%">
+											Let the Wookie win
+										</td>
+									</tr>
+								</table>
+
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0; ">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 19px; height: 200px; padding-top: 20px; padding-bottom: 20px; padding-left: 12px; padding-right: 12px; text-align: left;">
+															C-3PO and R2-D2 learn an important lesson in how to play holographic chess against Chewbacca.
+															<br/>&nbsp;
+															<br/>&nbsp;
+															<!-- BUTTON -->
+															<a href="http://www.starwars.com/video/let-the-wookiee-win" target="_blank">
+																<table align="center" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td bgcolor="#089a3a" style="border-radius: 6px; color: #222222; display:inline-block; font-family:sans-serif; font-size:13px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width: 200px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 13px; padding-bottom: 13px;">
+																			watch the video &#8594;
+																		</td>
+																	</tr>
+																</table>
+															</a>
+															<!-- BUTTON -->
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table align="center" border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td align="center" style="padding-top: 20px; padding-bottom: 20px;">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chewie.png" style="border-radius: 7px;">
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+		</table>
+		<!-- END CHEWIE SECTION -->
+
+		<!-- FETT SECTION -->
+		<table align="center" bgcolor="#089a3a" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0;">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td align="center" style="padding-top: 20px; padding-bottom: 20px;">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/fett.png" style="border-radius: 7px;">
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table align="center" border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td align="left" style="color: #363838; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 15px; padding-left: 12px; padding-top: 20px; text-align: left;" width="212">
+															No disintegrations
+														</td>
+													</tr>
+													<tr>
+														<td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; padding-bottom: 20px; text-align: left;">
+															With his customized Mandalorian armor, deadly weaponry, and silent demeanor, Boba Fett was one of the most feared bounty hunters in the galaxy.
+															<br/>&nbsp;
+															<br/>&nbsp;
+															<!-- BUTTON -->
+															<a href="http://www.starwars.com/video/no-disintegrations" target="_blank">
+																<table align="left" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td bgcolor="#222222" style="border-radius: 5px; color: #aaaaaa; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
+																			watch the video &#8594;
+																		</td>
+																	</tr>
+																</table>
+															</a>
+															<!-- BUTTON -->
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+		</table>
+		<!-- END FETT SECTION -->
+
+		<!-- STORMTROOPER SECTION -->
+		<table align="center" bgcolor="#e698o5" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0;">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td style="color: #414141; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 10px; padding-left: 12px; padding-right: 12px; padding-top: 20px; text-align: left;">
+															Aren't you a little short for a Stormtrooper?
+														</td>
+													</tr>
+													<tr>
+														<td style="color: #4a4a4a; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; padding-bottom: 20px; text-align: left;">
+															<b>Mounting a rescue?</b>
+															<br/>Make sure you are dressed for the occasion.
+															<br/>&nbsp;
+															<br/>&nbsp;
+															<!-- BUTTON -->
+															<a href="http://www.starwars.com/video/arent-you-a-little-short" target="_blank">
+																<table align="left" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td bgcolor="#4a4a4a" style="border-radius: 5px; color: #aaaaaa; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
+																			watch the video &#8594;
+																		</td>
+																	</tr>
+																</table>
+															</a>
+															<!-- BUTTON -->
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td align="center" style=" padding-top: 20px; padding-bottom: 20px;">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/trooper.png" style="border-radius: 7px;">
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+		</table>
+		<!-- END STORMTROOPER SECTION -->
+
+		<!-- R2 SECTION -->
+		<table align="center" bgcolor="#76818f" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-top: 15px; padding-bottom: 20px" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0;">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td align="center" style="padding-top: 20px; padding-bottom: 20px;">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/r2.png" style="border-radius: 7px;">
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="225">
+													<tr>
+														<td style="padding-left: 12px; padding-bottom: 7px; padding-top: 20px;">
+															<table align="left" border="0" cellspacing="0" cellpadding="0">
+																<tr>
+																	<td bgcolor="#70605a" style="border-radius: 8px; color: #76818f; display:inline-block; font-family:sans-serif; font-size:10px; font-weight:bold;text-align:center; text-decoration: none; width:100px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 5px; padding-bottom: 5px;">
+																		Jedi Mind Trick
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+													<tr>
+														<td align="left" style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 20px; font-weight: bold; padding-bottom: 12px; padding-left: 12px;padding-right: 12px;">
+															These aren't the droids you are looking for.
+														</td>
+													</tr>
+													<tr>
+														<td style="color: #222222; display: inline-block; font-family: Ariel, sans-serif; font-size: 14px; padding-left: 12px; padding-right: 12px; padding-bottom: 20px; text-align: left;">
+															The Force can have a strong influence on the weak-minded.
+															<br/>&nbsp;
+															<br/>&nbsp;
+															<!-- BUTTON -->
+															<a href="https://youtu.be/DIzAaY2Jm-s" target="_blank">
+																<table align="left" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td bgcolor="#b0a09a" style="border-radius: 5px; color: #70605a; display:inline-block; font-family:sans-serif; font-size:11px; font-weight:bold;text-align:center; text-decoration: none; text-transform: uppercase; width:150px; -ms-text-size-adjust: none; -webkit-text-size-adjust:none; padding-top: 9px; padding-bottom: 9px;">
+																			watch the video &#8594;
+																		</td>
+																	</tr>
+																</table>
+															</a>
+															<!-- BUTTON -->
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+		</table>
+		<!-- END R2 SECTION -->
+
+		<!-- A FOOTER AFOOT -->
+		<table align="center" bgcolor="#2f332f" border="0" cellspacing="0" cellpadding="0" width="100%">
+			<tr>
+				<td>
+					<!--[if mso]>
+					<table align="center" border="0" cellpadding="0" cellspacing="0" width="450">
+						<tr>
+							<td>
+							<![endif]-->
+								<table align="center" border="0" cellspacing="0" cellpadding="0" style="max-width: 450px; padding-right: 12px;" width="100%">
+									<tr>
+										<td style="text-align: center; font-size: 0; padding-top: 20px; padding-bottom: 20px;  padding-left: 12px;">
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="165">
+													<tr>
+														<td align="center">
+															<img src="https://raw.githubusercontent.com/Chuabacca/code-challenge/master/images/chuabacca-round.png" height="60" width="60">
+														</td>
+														<td style="text-align: center; color: #e1e1e1; font-family: Ariel, sans-serif; font-size: 18px;">
+															chuabacca
+														</td>
+													</tr>
+												</table>
+											</div>
+										<!--[if gte mso 12]>
+										</td>
+										<td>
+										<![endif]-->
+											<div style="display: inline-block;">
+												<table border="0" cellspacing="0" cellpadding="0" width="260">
+													<tr>
+														<td style="color: #666666; font-family: Ariel, sans-serif; font-size: 11px; height: 60px; text-align: center; -ms-text-size-adjust: none; -webkit-text-size-adjust: none;">
+															<span style="color: #666666; text-decoration: none;">22100 Burbank Blvd, Woodland Hills, CA 91367</span>
+															<br/>Unsubscribe | View this email in your browser
+														</td>
+													</tr>
+												</table>
+											</div>
+										</td>
+									</tr>
+								</table>
+							<!--[if mso]>
+							</td>
+						</tr>
+					</table>
+					<![endif]-->
+				</td>
+			</tr>
+		</table>
+		<!-- END A FOOTER AFOOT -->
+	
+</body>
 </html>
